@@ -1,0 +1,7 @@
+type Mutation {
+    createOrUpdateSku(skuList: [SkuChange]) : BaseResponse
+
+    createSkuBarcode(barcodeList: [BarcodeChange]) : BaseResponse
+
+    deleteSkuBarcode(barcodeList: [BarcodeChange]) : BaseResponse
+}

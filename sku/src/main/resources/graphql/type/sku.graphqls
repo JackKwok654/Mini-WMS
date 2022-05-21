@@ -1,0 +1,18 @@
+type Sku {
+    code: String!
+    name: String!
+    description: String
+    length: Float!
+    width: Float!
+    height: Float!
+    barcodes: [Barcode]
+}
+
+input SkuChange {
+    code: String!
+    name: String!
+    description: String
+    length: Float!
+    width: Float!
+    height: Float!
+}

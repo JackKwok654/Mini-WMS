@@ -1,0 +1,9 @@
+type Barcode {
+    skuCode: String!
+    barcode: String!
+}
+
+input BarcodeChange {
+    skuCode: String!
+    barcode: String!
+}
