@@ -1,0 +1,5 @@
+input ZoneInput {
+    code: String!
+    priority: Int!
+    warehouseCode: String!
+}

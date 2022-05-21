@@ -1,0 +1,7 @@
+input LocationTypeInput {
+    code: String!
+    frozen: Boolean!
+    length: Float!
+    width: Float!
+    height: Float!
+}

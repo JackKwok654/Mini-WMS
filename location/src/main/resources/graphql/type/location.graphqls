@@ -1,0 +1,8 @@
+input LocationInput {
+    code: String!
+    typeCode: String!
+    warehouseCode: String!
+    zoneCode: String!
+    groupCode: String!
+    priority: Int!
+}

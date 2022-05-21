@@ -1,3 +1,11 @@
 type Mutation {
+    createOrUpdateZone(zoneList: [ZoneInput]) : BaseResponse
 
+    createOrUpdateLocation(locationList: [LocationInput]) : BaseResponse
+
+    createOrUpdateWarehouse(warehouseList: [WarehouseInput]) : BaseResponse
+
+    createOrUpdateLocationType(locationTypeList: [LocationTypeInput]) : BaseResponse
+
+    createOrUpdateLocationGroup(locationGroupList: [LocationGroupInput]) : BaseResponse
 }

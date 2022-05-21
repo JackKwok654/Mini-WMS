@@ -1,0 +1,11 @@
+input WarehouseInput {
+    code: String!
+    name: String
+    description: String
+}
+
+type Warehouse {
+    code: String!
+    name: String
+    description: String
+}
